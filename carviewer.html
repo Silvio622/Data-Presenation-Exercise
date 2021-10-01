@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang"en-IE">
+<head>
+<meta charset="UTF-8"></meta>
+<link rel="stylesheet" 
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+crossorigin="anonymous">
+ 
+<title>View Cars</title>
+</head>
+<body>
+	<h1>Cars</h1>
+	
+	<!-- create a div container to create a Button-->
+	<div><button>Create</button></div>
+	<!-- create a div container to create a Button-->
+	</br>
+	
+	<!-- create a div container to create a Table-->
+	<div>
+		<h2> All Cars</h2>
+		<table class="table">
+			<!-- First row of the Table tr and td is for the row data-->
+			<tr align="center" >
+				<th>reg</th>
+				<th>make</th>
+				<th>model</th>
+				<th>price</th>
+				<th>Update</th>
+				<th>Delete</th>			
+			</tr>
+			
+			<!-- Second row of the Table tr and td is for the row data and a button inserted in a td data cell -->
+			<tr>
+				<td>191 MO 123</td>
+				<td>Ford</td>
+				<td>Mondeo</td>
+				<td>25,000</td>
+				<td><button>update</button></td>
+				<td><button>delete</button></td>			
+			</tr>
+			
+			<!-- Third row of the Table tr and td is for the row data and a button inserted in a td data cell -->
+			<tr>
+				<td>12 D 123</td>
+				<td>Fiat</td>
+				<td>Puncto</td>
+				<td>4,000</td>
+				<td><button>update</button></td>
+				<td><button>delete</button></td>			
+			</tr>
+			
+			<!-- Thourth row of the Table tr and td is for the row data and a button inserted in a td data cell -->
+			<tr>
+				<td>08 G 123</td>
+				<td>Nissan</td>
+				<td>Almera</td>
+				<td>500</td>
+				<td><button>update</button></td>
+				<td><button>delete</button></td>			
+			</tr>
+		</table>	
+	</div>
+	
+	<!-- create a div container to create a Form-->
+	<div>
+		<!-- create a Form but using the div tag not the form tag-->
+		<h2><span>Create a</span> <span>Update this</span> Car</h2> 
+		<!-- User Input as text format-->
+		Reg<input type="text" name="reg"/></br>
+		<!-- Selection Input with tree options available-->
+		Make <select name="make">
+				<option value ="Ford">Ford</option>
+				<option value ="Fiat">Fiat</option>
+				<option value ="Nissan">Nissan</option>
+			</select></br>
+		<!-- User Input as text format-->
+		Model<input type="text" name="model"/></br>
+		<!-- User Input as number format-->
+		Price<input type="number" name="price"/></br>
+		
+		<!-- create a Buttons using the span tag span tag is an inline container-->
+		<span><button>Create</button></span>
+		<span><button>Update</button></span>
+		
+	</div>
+		
+		
+</body>
+<html>
